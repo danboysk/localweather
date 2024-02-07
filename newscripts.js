@@ -2,9 +2,7 @@
 
 const appKey 	= ''
 
-url = 'https://api.openweathermap.org/data/2.5/weather?q=Leeds,uk&units=metric&APPID=${appKey}';
-
-fetch(url)
+fetch("https://api.openweathermap.org/data/2.5/weather?q=Leeds,uk&units=metric&APPID=")
   .then(response => response.json())
   .then(data => {
     console.log(data);
