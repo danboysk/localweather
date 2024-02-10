@@ -3,7 +3,8 @@
 // R. Williams
 
 const API_KEY 	= "f09dd0fbaa1b0be2f89ef1b93b05b4ff";
-const url = `https://api.openweathermap.org/data/2.5/weather?q=Leeds,uk&appid=${API_KEY}&units=metric`;
+const City 	= "Leeds, uk";
+const url = `https://api.openweathermap.org/data/2.5/weather?q=${City}&appid=${API_KEY}&units=metric`;
 const outputWeather = document.querySelector('#weather');
 
 
